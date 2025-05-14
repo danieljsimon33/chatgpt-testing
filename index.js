@@ -6,7 +6,7 @@ console.log('File running...');
 (async () => {
   const openai = new OpenAI({
     apiKey: process.env.OPENAI_API_KEY,
-    baseURL: 'https://api.openai.com/v1'
+    baseURL: 'https://api.openai.com/v1' // actual url: https://api.openai.com/v1/chat/completions
   });
 
   const stream = await openai.chat.completions.create({
