@@ -1,6 +1,6 @@
 # chatgpt-testing
 
-Pretty much what the title indicates.
+Pretty much what the title indicates. This is a NodeJS project.
 
 Note to future self: make sure not to lose the contents of that .env file!
 
